@@ -35,9 +35,9 @@
             // lbDisplay
             // 
             this.lbDisplay.FormattingEnabled = true;
-            this.lbDisplay.Location = new System.Drawing.Point(216, 31);
+            this.lbDisplay.Location = new System.Drawing.Point(73, 31);
             this.lbDisplay.Name = "lbDisplay";
-            this.lbDisplay.Size = new System.Drawing.Size(281, 160);
+            this.lbDisplay.Size = new System.Drawing.Size(650, 160);
             this.lbDisplay.TabIndex = 0;
             // 
             // btnDisplay
@@ -48,6 +48,7 @@
             this.btnDisplay.TabIndex = 1;
             this.btnDisplay.Text = "Display";
             this.btnDisplay.UseVisualStyleBackColor = true;
+            this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click);
             // 
             // Form1
             // 
